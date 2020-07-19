@@ -43,7 +43,7 @@ def mmsmsg():
         attachment_box.click()
         image_box = driver.find_element_by_xpath('//input[@accept="image/*,video/mp4,video/3gpp,video/quicktime"]')
         image_box.send_keys(filepath)
-        sleep(3)
+        sleep(4)
         send_button = driver.find_element_by_xpath('//span[@data-icon="send"]')
         send_button.click()
 
