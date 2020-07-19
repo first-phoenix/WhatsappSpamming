@@ -8,7 +8,7 @@ from time import sleep
 driver = webdriver.Chrome(ChromeDriverManager().install())
 driver.get("https://web.whatsapp.com/")
 driver.maximize_window()
-
+print("This is a Code by Swaraj \n to send lots of messages and media files to any contact or group.")
 msgtype = input("Which type of message you want to send? 1.Text 2.Media: Select 1 or 2 :")
 
 def txtmsg():
@@ -27,7 +27,7 @@ def txtmsg():
         msg_box.send_keys(msg)
         driver.find_element_by_xpath("//*[@id='main']/footer/div[1]/div[3]/button").click()
 
-    print("Success")
+    print("Success \n © Swaraj")
 
 
 
@@ -36,7 +36,7 @@ def mmsmsg():
     filepath = input('Enter your filepath (images/video): ')
     count = int(input("Enter count:"))
 
-    input('Enter anything after scanning QR code')
+    input('© Swaraj \n Enter anything after scanning QR code:')
 
     user = driver.find_element_by_xpath('//span[@title = "{}"]'.format(name))
     user.click()
@@ -50,7 +50,7 @@ def mmsmsg():
         send_button = driver.find_element_by_xpath('//span[@data-icon="send"]')
         send_button.click()
 
-    print("Success")
+    print("Success \n © Swaraj")
 
 if msgtype=="1":
     txtmsg()
