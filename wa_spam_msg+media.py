@@ -1,3 +1,6 @@
+#Author: Swaraj Khan
+#DO NOT USE THE CODE IN ANY UNETHICAL PURPOSE
+
 from selenium import webdriver
 from webdriver_manager.chrome import ChromeDriverManager
 from time import sleep
