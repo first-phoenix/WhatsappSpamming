@@ -50,7 +50,7 @@ def mmsmsg():
         send_button = driver.find_element_by_xpath('//span[@data-icon="send"]')
         send_button.click()
 
-    print("Success \n © Swaraj")
+    print("Success \n Best wishes from Swaraj \n © Swaraj")
 
 if msgtype=="1":
     txtmsg()
